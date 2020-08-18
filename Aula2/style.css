@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.artigo{
+    width: 1280px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: cadetblue;
+    padding: 40px;
+}
+.artigo  h1{
+    color: #006699;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.artigo P {
+    color: #ac1010b6;
+    font-size: 17px;
+    font-family: 'tahoma';
+    margin-top: 12px;
+}
