@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+.tipo1{
+    color: rgba(37, 34, 34, 0.582);
+}
+
+.link_{
+    font-size: 30px;
+    
+}
