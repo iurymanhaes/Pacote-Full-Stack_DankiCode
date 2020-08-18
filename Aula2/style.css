@@ -11,12 +11,15 @@
     padding: 40px;
 }
 .artigo  h1{
+    letter-spacing: 20px; /*Espaçamento entre as letras*/
+  
     color: #006699;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .artigo P {
+    line-height: 30px; /*Espaçamento entre as linhas*/
     color: #ac1010b6;
     font-size: 17px;
     font-family: 'tahoma';
