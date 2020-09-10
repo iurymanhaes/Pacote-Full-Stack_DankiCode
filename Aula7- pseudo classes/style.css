@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+.teste,.teste2,.teste3{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    height: 300px;
+    background-color: #ccc;
+}
+.teste2{
+    background-color: rgb(98,98,98);
+}
+teste3{
+    background-color: rgb(50,50,50);
+}
+.teste:hover{
+    background-color: blue;
+}
+.teste2:active{
+    background-color: black;
+}
+/*focus é para dar focu no formulário*/
+
+.link1:visited{
+    color: red;
+}
