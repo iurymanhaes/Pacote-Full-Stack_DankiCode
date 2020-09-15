@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+
+input[type=checkbox]{
+    display: none;
+}
+
+label{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+input[type=checkbox]:checked + label{
+    background-color: red;
+}
+
+
+form{
+    text-align: center;
+    background-color: #ccc;
+    padding: 30px 0;
+}
+/*
+form select{
+    width: 220px;
+    height: 40px;
+    border: none;
+    -webkit-appearance: none;
+}
+
+
+input[type=file]{
+    display: none;
+}
+
+label{
+    display:block;
+    margin:40px auto;
+    font-size:17px;
+    width: 270px;
+    height: 40px;
+    background-color: #ccc;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+/*
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 30px auto; 
+    text-align: center;
+}
+
+form fieldset{
+    padding: 20px 40px;
+    border: 1px solid black;
+}
+
+form legend{
+    text-align: left;
+    font-size: 17px;
+    color: rgb(110,110,110);
+}
+form input[type=text]{
+    font-family: tahoma;
+   display: inline-block;
+   margin-top: 30px;
+   width: 80%;
+   padding: 5px 7px;
+   border: 1px solid black;
+}
+
+form input[type=text]:focus, form select:focus, form textarea:focus{
+    outline: 0;
+    
+}
+form select{
+    font-family: tahoma;
+    width: calc(80% + 12px);
+    margin-top: 30px;
+    padding: 5px 7px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+form h2{
+    margin-top: 20px;
+    rgb(100,100,100);
+}
+
+.input{
+    margin-top: 20px;
+    display: inline-block;
+    text-align: left;
+}
+.input span{
+    margin-left: 13px;
+    font-size: 16px;
+    color:  rgb(110,110,110);
+}
+form input[type=submit]{
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    border: 0;
+    font-size: 16px;
+    border: 2px solid rgb(130,130,130);
+    color: white;
+    background-color: rgb(140,140,140);
+    cursor:pointer;
+}
+form textarea{
+    font-family: tahoma;
+    margin-top: 30px;
+    width: 80%;
+    padding: 5px 7px;
+    resize: none;
+    border: 1px solid#ccc;
+    
+
+}
+*/
+
