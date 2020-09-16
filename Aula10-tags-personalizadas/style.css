@@ -16,3 +16,11 @@ minhatag.tag_especial[tag=one]{
     border: 3px solid green;
  
 }
+iury{
+    display: block;
+}
+
+iury  h2{
+    margin-top: 20px;
+    background-color: red;
+}
