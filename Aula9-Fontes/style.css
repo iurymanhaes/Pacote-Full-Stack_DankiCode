@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+/* Importando do proprio diretório */
+
+
+@font-face{
+    font-family: "Open Sans" ;
+    src:url('../fontes/OpenSans-Italic.ttf')
+
+}
+/* * ataca todos os elementos filhos de form*/
+form *{
+    font-family: "Open Sans";
+}
+
+/* Quando utilizamos o important o nivel de especificação deixa de existir, se mais de um utilizar o important então o nivel de especificação volta a contar.
+
+.box p{
+    font-family: "Open Sans";
+}
+
+.text{
+    font-family: tahoma !important; 
+}
+*/
